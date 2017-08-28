@@ -1,0 +1,15 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 900px) {
+    @import 'media/nav';
+}
+    
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+}
+    
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    @import 'media/flexslider';
+    @import 'media/slider-article';
+}

@@ -1,0 +1,46 @@
+.title {
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+    line-height: 1;
+    
+    h1 {
+        text-align: right;
+        font-family: 'Marketing Script';
+        font-size: 42px;
+        color: $text-color-dark;
+        text-transform: capitalize;
+    }
+    
+    p{
+        text-align: right;
+        font-family: 'Trebuchet MS';
+        font-size: 14px;
+        color: $text-color-dark;
+        text-transform: capitalize;
+    }
+}
+
+.nav {
+    float: right;
+    padding: 18px;
+    box-shadow: $box-shadow;
+    border-radius: $bd-radius;
+    font-size: 14px;
+    color: #454444;
+    line-height: 1;
+    
+    li {
+        float: left;
+        margin-right: 25px;
+    }
+    
+    a {
+        color: #454444;
+        text-decoration: none;
+        
+        &:hover {
+            color: #d42907;
+        }
+    }
+}

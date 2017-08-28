@@ -1,0 +1,27 @@
+body {
+    background-image: url(../img/bg-top.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 70px;
+    padding-bottom: 95px;
+    font-family: $font-family;
+}
+
+.wrapper {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.both {
+   clear: both;
+}
+
+.content {
+    padding: 38px 0;
+}
+
+main {
+    max-width: 730px;
+    float: left;
+}
